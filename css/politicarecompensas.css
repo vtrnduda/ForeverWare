@@ -179,15 +179,37 @@ h3 {
 
 }
 
-.rewards__box {
+.rewards__page {
     padding: 3em 8em;
     text-align: justify;
     color: var(--tertiary-color);
 
 }
 
-.rewards__card {
+.rewards__page p {
     padding: .6em;
+}
+
+.rewards__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem 1rem;
+}
+
+.rewards__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: .5rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+
 }
    
 
