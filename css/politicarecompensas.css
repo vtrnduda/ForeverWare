@@ -204,12 +204,21 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    flex-wrap: wrap;
+    word-wrap: break-word;
     padding: 2rem;
     gap: .5rem;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     cursor: pointer;
 
+}
+
+.rewards__card-title {
+    font-size: larger;
 }
    
 
@@ -285,6 +294,7 @@ footer {
         max-height: 296px;
     }
 
+    
 
 
   
