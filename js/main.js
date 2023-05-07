@@ -1,40 +1,39 @@
+
 import {LoadLink} from './lib.js';
+import { rewards } from './rewards.js';
+
+
 
 
 LoadLink();
 
-//API viacep
-const cep__input = document.getElementById('cep');
-const logradouro = document.getElementById('logradouro');
-const numero = document.getElementById('numero');
-const bairro = document.getElementById('bairro');
-const estado = document.getElementById('estado');
-const localidade = document.getElementById('localidade');
 
-async function getCEP(cep) {
-const url = `https://viacep.com.br/ws/${cep}/json/`;
+//dinamic rewards
 
-const response = await fetch(url);
+ const rewards_container = document.querySelector('.rewards__box')
 
-const result = await response.json();
+ const CreateRewardsCard = (reward) => {
+     const card = `
+         <div class="rewards__card">
+             <div class="rewards__img">
+             <img src="${reward.img}" alt="iphonereward" sizes="10x10">
+             </div>
+             <h3 class="rewards__card-title">${reward.title}</h3>
+             <p class="rewards__card-price">${reward.price} pontos</p>
+         </div>
+     `
+     return card;
+ };
 
-return result;
-}
+ const renderRewards = (rewards) => {
+     rewards_container.innerHTML = rewards.map((reward) => CreateRewardsCard(reward)).join('');
+ };
 
-async function main() {
-const cep = await getCEP(cep__input.value);
+ renderRewards(rewards);
 
-logradouro.value = cep.logradouro;
-numero.value = cep.complemento;
-bairro.value = cep.bairro;
-estado.value = cep.uf;
-localidade.value = cep.localidade;
 
-}
 
-cep__input.addEventListener("keypress", function(e) {
-if (e.key === "Enter") {
 
-    main();
-}
-});
+
+
+
