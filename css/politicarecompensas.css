@@ -169,7 +169,7 @@ h3 {
 
 .rewards .container {
     background-color: var(--primary-background);
-    padding: 6rem 4rem;
+    
 
 }
 
@@ -271,6 +271,12 @@ footer {
     .nav__cta {
         display: flex;
         flex-direction: row;
+        align-items: center;
+    }
+
+    .nav__cta .secondary-button, .nav_cta .secondary-button:hover {
+        width: 100%
+
     }
 
     .nav button {
@@ -301,6 +307,18 @@ footer {
     .hero img {
         max-width: 514px;
         max-height: 296px;
+    }
+
+    .rewards__box {
+        flex-wrap: wrap;
+        
+    }
+
+    .rewards__card {
+        min-width: 13.5rem;
+        max-width: fit-content;
+        max-height: 15rem;
+        padding: 1rem;
     }
 
     

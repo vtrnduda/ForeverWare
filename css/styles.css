@@ -288,6 +288,12 @@ footer {
     .nav__cta {
         display: flex;
         flex-direction: row;
+        align-items: center;
+    }
+
+    .nav__cta .secondary-button, .nav_cta .secondary-button:hover {
+        width: 100%
+
     }
 
     .nav button {
