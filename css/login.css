@@ -134,7 +134,7 @@ h3 {
 }
 
 .container {
-    padding: 8rem 2rem;
+    padding: 10rem 2rem;
     height: 100%;
     border-bottom-left-radius: 23%;
     border-bottom-right-radius: 23%;
@@ -248,11 +248,11 @@ footer {
     }
 
     .hero .container {
-        padding: 16rem 4rem;
+        padding: 10rem 4rem;
     }
 
     .container {
-        padding: 12rem 8rem;
+        padding: 10rem 8rem;
     }
 
     .hero img {
