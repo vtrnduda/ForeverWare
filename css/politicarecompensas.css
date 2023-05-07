@@ -128,7 +128,7 @@ h3 {
     align-items: center;
     text-align: center;
     /* padding: 4rem 2rem; */
-    padding: 8rem 2rem;
+    padding: 4rem 2rem;
     gap: 2rem;
     position: relative;
 
@@ -136,7 +136,7 @@ h3 {
 
 .container {
     height: 100%;
-    
+    padding: 8rem 2rem;
     border-bottom-left-radius: 23%;
     border-bottom-right-radius: 23%;
     background: var(--primary-color);
@@ -180,7 +180,7 @@ h3 {
 }
 
 .rewards__page {
-    padding: 3em 8em;
+    padding: 8rem 4rem;
     text-align: justify;
     color: var(--tertiary-color);
 
