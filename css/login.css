@@ -185,18 +185,13 @@ footer {
 
 @media screen and (max-width: 375px) {
     h1 {
-        font-size: 2.75rem;
+        font-size: 2rem;
         line-height: 48px;
     }
 
     h2 {
         font-size: 2rem;
         line-height: 32px;
-    }
-
-    .deck {
-        display: flex;
-        flex-direction: column;
     }
 
     .nav {
@@ -216,6 +211,11 @@ footer {
 
     .nav button {
         width: 50%;
+    }
+
+    .hero .message {
+        display: flex;
+        flex-direction: column;
     }
 }
 

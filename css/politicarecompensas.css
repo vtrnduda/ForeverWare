@@ -309,6 +309,10 @@ footer {
         max-height: 296px;
     }
 
+    .hero .container {
+        padding: 8rem 4rem;
+    }
+
     .rewards__box {
         flex-wrap: wrap;
         
