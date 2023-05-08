@@ -336,12 +336,12 @@ footer {
         padding: 2rem 4rem;
     }
 
-    .hero .container {
-        padding: 300px 70px;
+    .hero .container .deck{
+        padding: 250px 70px;
     }
 
     .container {
-        padding: 400px 70px;
+        padding: 250px 70px;
     }
 
     .hero img {
