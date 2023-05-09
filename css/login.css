@@ -252,7 +252,9 @@ footer {
     }
 
     .hero .container {
+        height: 70vh;
         padding: 16rem 4rem;
+        
     }
 
  

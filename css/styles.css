@@ -360,8 +360,9 @@ footer {
         padding: 2rem 4rem;
     }
 
-    .container {
-        padding: 12rem 4rem;
+    .hero .container {
+        /* padding: 12rem 4rem; */
+        height: 70vh;
     }
 
     .hero img {
