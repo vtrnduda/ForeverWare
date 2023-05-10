@@ -10,12 +10,15 @@
 :root {
     --primary-font: 'Fraunces', serif;
     --secondary-font: 'Manrope', sans-serif;
-    --primary-color: #495c69;
-    --secondary-color: #369667;
-    /* --secondary-color: #44ffa1; */
-    --tertiary-color: #584d62;
-    --primary-background: #f8fffc;
+    /* --primary-color: #495c69; */
+    --primary-color: #698C7F;
+    /* --secondary-color: #369667; */
+    --secondary-color: #241023;
+    --tertiary-color: #13293D;
+    /* --primary-background: #f8fffc; */
+    --primary-background: #FDFFFC;
     --secondary-background: #fff;
+    --tertiary-background: #5e8073;
 }
 
 body {
