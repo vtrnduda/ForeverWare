@@ -21,3 +21,4 @@ export function setCep(cep) {
 	estado.value = cep.uf;
 	cidade.value = cep.localidade;
 }
+
