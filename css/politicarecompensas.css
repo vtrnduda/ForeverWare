@@ -276,7 +276,6 @@ footer {
 
 @media screen and (min-width: 768px) {
   .hero .container {
-    /* background-image: url(assets/images/bg-pattern-1.svg), url(assets/images/bg-pattern-2.svg); */
     background-position: -10% 0, 100% 50%;
     background-repeat: no-repeat;
   }
